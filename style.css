@@ -1,0 +1,125 @@
+/* Global Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #654321 0%, #d2b48c 50%);
+  color: #000;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+header {
+  background-color: #001111;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Sections */
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+  background-color: #00a86b;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Home Section */
+
+#home .profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#home h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+#home p {
+  font-size: 18px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Contact Section */
+
+#contact p {
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+  color: #ccc;
+}
